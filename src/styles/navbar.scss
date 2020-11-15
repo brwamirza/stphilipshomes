@@ -1,0 +1,37 @@
+#navbar{
+    position: relative;
+    @media (min-width: 1024px){
+        .header {
+            height: 120px;
+        }
+    }
+
+    .header--transparent {
+        position: absolute;
+        top: 0;
+        background: none;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+    a{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .header__navItem {
+        margin-right: 50px;
+    }
+
+    .container{
+        width: 85%!important;
+        max-width: 1420px!important;
+    }
+
+    .header__container{
+        -ms-flex-align: center;
+        align-items: center;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+    }
+}
