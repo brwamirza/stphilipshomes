@@ -1,5 +1,5 @@
 import './App.scss';
-import Navbar from "./components/navbar.component";
+import Home from "./components/home.component";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <Router>
-        <Navbar/>
+        <Home/>
       </Router>
     </div>
   );
